@@ -1,0 +1,95 @@
+name: befit
+description: "Befit Dark — a Flutter fitness companion based on the Pixso reference."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  cupertino_icons: ^2.0.0
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bg.png
+    - assets/bg3.png
+    - assets/logo.png
+    - assets/menu.png
+    - assets/card1.png
+    - assets/card2.png
+    - assets/cardcover.png
+    - assets/cycling_bg.png
+    - assets/walking_bg.png
+    - assets/running_bg.png
+    - assets/applogo.png
+    - assets/map.png
+    - assets/confetti.png
+    - assets/trophy.png
+    - assets/avatars/avatar.png
+    - assets/avatars/avatar1.png
+    - assets/avatars/avatar2.png
+    - assets/avatars/avatar3.png
+    - assets/avatars/avatar4.png
+    - assets/avatars/avatar5.png
+    - assets/challenges/cardio.png
+    - assets/challenges/yoga.png
+    - assets/challenges/cycling.png
+    - assets/challenges/meditation.png
+    - assets/challenges/pic1.png
+    - assets/challenges/pic2.png
+    - assets/challenges/medal.png
+    - assets/challenges/weighticon.png
+    - assets/icons/nav1.png
+    - assets/icons/nav2.png
+    - assets/icons/nav3.png
+    - assets/icons/nav4.png
+    - assets/icons/walk.png
+    - assets/icons/running.png
+    - assets/icons/bike-bicycle.png
+    - assets/profile/cover.png
+    - assets/profile/my_cover.png
+    - assets/profile/my_avatar.png
+    - assets/profile/trophy.png
+    - assets/profile/medal.png
+    - assets/sidemenu/applehealth.png
+    - assets/sidemenu/smartwatch.png
+    - assets/slider/healthy.png
+    - assets/slider/ontime.png
+    - assets/slider/strong.png
+    - assets/slider/competitive.png
+    - assets/slider/befit.png
+    - assets/stories/story.png
+    - assets/stories/story2.jpg
+    - assets/stories/story3.jpg
+    - assets/stories/story4.jpg
+    - assets/stories/avatar.png
+    - assets/workout/Workoutimg.png
+    - assets/workout/Workoutimg2.png
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/font/Gilroy-Light.ttf
+          weight: 300
+        - asset: assets/font/Gilroy-Regular.ttf
+          weight: 400
+        - asset: assets/font/Gilroy-Medium.ttf
+          weight: 500
+        - asset: assets/font/Gilroy-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Gilroy-Bold.ttf
+          weight: 700
+        - asset: assets/font/Gilroy-ExtraBold.ttf
+          weight: 800
